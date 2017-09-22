@@ -1,7 +1,9 @@
+import java.util.Comparator;
+
 /**
  * Created by fox on 19.09.17.
  */
-public class Students {
+public class Students  {
     private String firstName;
     private String lastName;
     private int yearOfBirth;
