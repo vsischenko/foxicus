@@ -15,7 +15,7 @@ public class MainApp {
 
 
 do {
-    System.out.println("Ты можешь: \n" +
+    System.out.println("---***---\n Ты можешь: \n" +
         "1. Добавить студента.\n" +
         "2. Удалить студента по фамилии\n" +
         "3. Просмотреть список студентов\n" +
@@ -53,11 +53,13 @@ do {
 
         else if (chouse==3){
         chouse=0;
-        System.out.println("Сделайте свой выбор сортировки:\n 1. А-Я \n 2.Я-А");
+        System.out.println("Сделайте свой выбор сортировки:\n 1. А-Я \n 2. Я-А");
         chouse=scanner.nextInt();
         if (chouse==1) {
             PrintStudents.PrinterA(studentBD,1);
-        } else if (chouse==2) {}else {
+        } else if (chouse==2) {
+            PrintStudents.PrinterA(studentBD,2);
+        }else {
             System.out.println("Ошибка");}
 
 
