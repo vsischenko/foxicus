@@ -8,6 +8,7 @@ public class Students  {
     private String lastName;
     private int yearOfBirth;
     private String group;
+    private boolean marks [];
 
     Students (String firstName, String lastName, String group, int yearOfBirth) {
         this.firstName = firstName;
