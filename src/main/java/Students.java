@@ -21,6 +21,7 @@ public class Students  {
     public String getGroup() {return group;}
     public int getYearOfBirth() {return yearOfBirth;}
 
+
     public void setFirstName(String firstName){
         this.firstName=firstName;
     }

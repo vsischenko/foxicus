@@ -5,6 +5,11 @@ import java.util.*;
  */
 public class MainApp {
     public static void main(String[] args) {
+
+
+
+
+
         ArrayList<Students> studentBD = new ArrayList();
 
         studentBD.add(new Students("Персианов", "Алексей", "АС-001", 1982));
