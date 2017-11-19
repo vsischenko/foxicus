@@ -6,18 +6,32 @@ import java.util.ArrayList;
 public class mainC {
     public static void main(String[] args) {
 
-        IntoCont container = new IntoCont(1);
+        IntoCont container = new IntoCont();
 
-        container.add(3);
-        container.add(5);
-        container.add(8);
+        int[] newArr = {544, 15, 45,3,3,34,5,6,7,5,5,23};
 
-        System.out.println(container.getArraySize());
+        container.addAll(newArr);
 
-        for (int i = 0; i < container.getArraySize(); i++) {
-            System.out.println(container.getArr()[i]);
 
-        }
+
+     /*   for (int i = 0; i < tempArr.length-1; i++) {
+            int temp = 0;
+            for (int j = 0; j < tempArr.length-i; j++) {
+                if (tempArr[i] > tempArr[i + j]) {
+                    temp = tempArr[i];
+                    tempArr[i] = tempArr[i + j];
+                    tempArr[i + j] = temp;
+                }
+            }
+        }*/
+
+
+
+        container.print();
+        container.sort();
+        container.print();
+
+
 
 
 
